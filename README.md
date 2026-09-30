@@ -15,7 +15,10 @@ python app.py
 Open **http://localhost:5000**. The database is created and seeded automatically
 on first run.
 
-**Demo admin account:** `admin@trailmark.demo` / `admin123`
+ **Local demo admin account (only when run locally, no environment variables set):**
+`admin@trailmark.demo` / `admin123`
+
+On a real deployment (e.g. Render), set `ADMIN_EMAIL` and `ADMIN_PASSWORD` as environment variables instead — see Section 8 "Deploying to Render". Whatever you set there becomes your real admin login.
 
 ## 2. Feature map
 
