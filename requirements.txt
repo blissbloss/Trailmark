@@ -1,0 +1,7 @@
+Flask>=3.0
+reportlab>=4.0
+
+# --- Optional, only needed if you switch the Data Layer to MySQL ---
+# (see schema_mysql.sql and the note at the top of db.py)
+# PyMySQL>=1.1
+# Flask-MySQLdb>=2.0
